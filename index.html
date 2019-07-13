@@ -102,10 +102,10 @@ $ http {{ .Host }}/ip
 {{ if .Port }}
         <h2>Port testing</h2>
         <pre>
-$ http {{ .Host }}/port/8080
+$ http {{ .Host }}/port/80
 {
   "ip": "{{ .IP }}",
-  "port": 8080,
+  "port": 80,
   "reachable": false
 }</pre>
 {{ end }}
